@@ -23,5 +23,8 @@ DEVICE_PATH := device/xiaomi/begonia
 # Hidl
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest_begonia.xml
 
+# SEPolicy
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/begonia/BoardConfigVendor.mk

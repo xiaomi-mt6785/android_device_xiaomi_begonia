@@ -1,0 +1,8 @@
+# Data Labels
+/data/nfc(/.*)?                                                           u:object_r:nfc_data_file:s0
+
+# Devices Labels
+/dev/nq-nci                                                               u:object_r:nfc_device:s0
+
+# Same Process HAL
+/vendor/lib(64)?/nfc_nci\.nqx\.default\.hw\.so                            u:object_r:same_process_hal_file:s0

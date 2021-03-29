@@ -1,0 +1,5 @@
+# Mediatek (Misc)
+ro.se.type=eSE,HCE,UICC
+
+# NFC
+ro.vendor.nfc.repair=1

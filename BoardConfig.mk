@@ -23,5 +23,8 @@ DEVICE_PATH := device/xiaomi/begonia
 # Hidl
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest_begonia.xml
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/begonia/BoardConfigVendor.mk
